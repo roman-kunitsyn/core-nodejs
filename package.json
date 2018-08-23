@@ -1,0 +1,23 @@
+{
+  "name": "core-nodejs",
+  "version": "1.0.0",
+  "description": "Core nodejs server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roman-kunitsyn/core-nodejs.git"
+  },
+  "keywords": [
+    "core",
+    "nodejs"
+  ],
+  "author": "Roman Kunitsyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roman-kunitsyn/core-nodejs/issues"
+  },
+  "homepage": "https://github.com/roman-kunitsyn/core-nodejs#readme"
+}
