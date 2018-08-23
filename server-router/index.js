@@ -15,6 +15,9 @@ function getNavigation(req) {
 
 function switcher(navigation, req, res) {
   switch (navigation.url) {
+    case "/":
+      res.end("root");
+      break;
     case "/test":
       res.end("test");
       break;
@@ -28,7 +31,7 @@ function switcher(navigation, req, res) {
       res.end("registration");
       break;
     default:
-      res.end("404");
+      res.end(`404 not found ${navigation.url}`);
       break;
   }
   return;
