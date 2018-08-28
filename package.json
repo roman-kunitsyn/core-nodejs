@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/roman-kunitsyn/core-nodejs/issues"
   },
-  "homepage": "https://github.com/roman-kunitsyn/core-nodejs#readme"
+  "homepage": "https://github.com/roman-kunitsyn/core-nodejs#readme",
+  "dependencies": {
+    "mathjax": "^2.7.5",
+    "tex-equation-to-svg": "^1.0.1"
+  }
 }
