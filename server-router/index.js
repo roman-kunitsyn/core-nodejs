@@ -54,8 +54,8 @@ function crudRouter(req, res) {
     case "DELETE /api/data/:id":
       res.end("DELETE /api/data/:id");
       break;
-    case "UPDATE /api/data/:id":
-      res.end("UPDATE /api/data/:id");
+    case "PUT /api/data/:id":
+      res.end("PUT /api/data/:id");
       break;
   }
   return;
